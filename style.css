@@ -1,0 +1,91 @@
+.chartContainer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #f5f5f5;
+}
+
+.chartContainer > * {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content > * {
+  margin: 5px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background: #d5def1;
+}
+
+.content-group > * {
+  flex: 1;
+}
+
+.contentTitle {
+  margin: 10px 5px;
+  padding: 10px;
+  border-radius: 4px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bg-title {
+  background: #d5def1;
+}
+
+.conFlex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conFlex > * {
+  flex: 1;
+  background: #d5def1;
+  margin: 5px;
+  padding: 10px;
+}
+
+.conFlex span {
+  font-weight: bold;
+}
+
+#chartContent {
+  position: relative;
+}
+
+.logoChart {
+  background-image: url('./Dofin.png');
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-position: center center;
+  background-size: 256px auto;
+  opacity: 0.1;
+}
+
+.center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.size9 {
+  font-size: 0.9rem;
+}
+
+.size8 {
+  font-size: 0.8rem;
+}
